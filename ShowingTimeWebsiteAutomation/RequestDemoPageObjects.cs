@@ -91,24 +91,24 @@ namespace ShowingTimeWebsiteAutomation
             Roles roleValue, 
             string company, 
             string city, 
-            StateProvinces StateProvinceValue, 
+            object StateProvinceValue, 
             string zip, 
             string phone, 
             string email, 
-            string Inquiring1 = null, 
-            string Inquiring2 = null,
-            string Inquiring3 = null,
-            string Inquiring4 = null,
-            string ProductInt1 = null,
-            string ProductInt2 = null,
-            string ProductInt3 = null,
-            string ProductInt4 = null,
-            string ProductInt5 = null,
-            string ProductInt6 = null,
-            string ProductInt7 = null,
-            string ProductInt8 = null,
-            string ProductInt9 = null,
-            string ProductInt10 = null
+            EnquiryFor Inquiring1 = EnquiryFor.Empty,
+            EnquiryFor Inquiring2 = EnquiryFor.Empty,
+            EnquiryFor Inquiring3 = EnquiryFor.Empty,
+            EnquiryFor Inquiring4 = EnquiryFor.Empty,
+            ProdOfInt ProductInt1 = ProdOfInt.Empty,
+            ProdOfInt ProductInt2 = ProdOfInt.Empty,
+            ProdOfInt ProductInt3 = ProdOfInt.Empty,
+            ProdOfInt ProductInt4 = ProdOfInt.Empty,
+            ProdOfInt ProductInt5 = ProdOfInt.Empty,
+            ProdOfInt ProductInt6 = ProdOfInt.Empty,
+            ProdOfInt ProductInt7 = ProdOfInt.Empty,
+            ProdOfInt ProductInt8 = ProdOfInt.Empty,
+            ProdOfInt ProductInt9 = ProdOfInt.Empty,
+            ProdOfInt ProductInt10 = ProdOfInt.Empty
             )
 
         {
@@ -187,8 +187,7 @@ namespace ShowingTimeWebsiteAutomation
                     new SelectElement(RequestDsemoStateProvince).SelectByText("New York");
                     break;
 
-                    
-
+                  
                 case StateProvinces.PrinceEdwardIsland:
                     new SelectElement(RequestDsemoStateProvince).SelectByText("Prince Edward Island");
                     break;
@@ -211,8 +210,8 @@ namespace ShowingTimeWebsiteAutomation
                     new SelectElement(RequestDsemoStateProvince).SelectByText("West Virginia");
                     break;
 
-                case default:
-                    new SelectElement(RequestDsemoStateProvince).SelectByText(nameof(StateProvinceValue));
+                default:
+                    new SelectElement(RequestDsemoStateProvince).SelectByText("Arizona");
                     break;
 
             }
@@ -227,59 +226,59 @@ namespace ShowingTimeWebsiteAutomation
             RequestDemoEmail.SendKeys(email);
             Thread.Sleep(1000);
 
-            if (Inquiring1!=null)
+            if (Inquiring1== EnquiryFor.Myself)
             
                 RequestDemoIamEnquiringFor1.Click();
             
-            if (Inquiring2!= null)
+            if (Inquiring2== EnquiryFor.MyOffice)
             
                 RequestDemoIamEnquiringFor2.Click();
             
-            if (Inquiring3!= null)
+            if (Inquiring3!= EnquiryFor.MyMLSAssociate)
             
                 RequestDemoIamEnquiringFor3.Click();
             
-            if (Inquiring4!= null)
+            if (Inquiring4!= EnquiryFor.Other)
 
                 RequestDemoIamEnquiringFor4.Click();
             
-            if (ProductInt1!= null)
+            if (ProductInt1== ProdOfInt.ShowingTimeAppointmentCenter)
             
                 RequestDemoPOI1.Click();
             
-            if (ProductInt2!= null)
+            if (ProductInt2== ProdOfInt.ShowingTimefortheMLS)
             
                 RequestDemoPOI2.Click();
             
-            if (ProductInt3!= null)
+            if (ProductInt3== ProdOfInt.ShowingTimeFrontDesk)
             
                 RequestDemoPOI3.Click();
             
-            if (ProductInt4!= null)
+            if (ProductInt4== ProdOfInt.InfoSparksforMLSsorassociations)
             
                 RequestDemoPOI4.Click();
             
-            if (ProductInt5!= null)
+            if (ProductInt5== ProdOfInt.FastStatsforMLSsorassociations)
             
                 RequestDemoPOI5.Click();
             
-            if (ProductInt6!= null)
+            if (ProductInt6== ProdOfInt.SmartChartsforMLSsorassociations)
             
                RequestDemoPOI6.Click();
 
-            if (ProductInt7!= null)
+            if (ProductInt7== ProdOfInt.MarketViewMLSforMLSsorassociations)
 
                 RequestDemoPOI7.Click();
 
-            if (ProductInt8!= null)
+            if (ProductInt8== ProdOfInt.MarketViewBroker)
 
                 RequestDemoPOI8.Click();
 
-            if (ProductInt9!= null)
+            if (ProductInt9== ProdOfInt.LeadCoordinatorandLeadAlert)
 
                 RequestDemoPOI9.Click();
 
-            if (ProductInt10!= null)
+            if (ProductInt10== ProdOfInt.Other)
 
                 RequestDemoPOI10.Click();
             Thread.Sleep(3000);

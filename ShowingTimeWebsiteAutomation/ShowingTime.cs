@@ -57,7 +57,30 @@ namespace ShowingTimeWebsiteAutomation
             HomePageObjects HmObjects = new HomePageObjects();
             RequestDemoPageObjects Pobjects = HmObjects.ClickRequestDemo();
 
-            Pobjects.FillRequestDemoForm("Siddhant","Yadav", Roles.Homeowner, "Selfowned", "Chicago", StateProvinces.Arizona, "99999", "3339999999", "xyz@gmail.com");
+            Pobjects.FillRequestDemoForm(
+                "Siddhant","Yadav", 
+                Roles.Homeowner, 
+                "Selfowned", 
+                "Chicago", 
+                StateProvinces.Arizona, 
+                "99999", 
+                "3339999999", 
+                "xyz@gmail.com", 
+                EnquiryFor.MyMLSAssociate,
+                EnquiryFor.MyOffice, 
+                EnquiryFor.Empty, 
+                EnquiryFor.Empty, 
+                ProdOfInt.Empty, 
+                ProdOfInt.Empty, 
+                ProdOfInt.Empty,
+                ProdOfInt.Empty,
+                ProdOfInt.Empty,
+                ProdOfInt.SmartChartsforMLSsorassociations,
+                ProdOfInt.Empty,
+                ProdOfInt.Other,
+                ProdOfInt.Empty,
+                ProdOfInt.Empty
+                );
 
         }
 

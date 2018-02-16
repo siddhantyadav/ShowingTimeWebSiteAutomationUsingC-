@@ -7,7 +7,8 @@ namespace ShowingTimeWebsiteAutomation
         Myself,
         MyOffice,
         MyMLSAssociate,
-        Other
+        Other,
+        Empty
 
     }
 
@@ -22,7 +23,8 @@ namespace ShowingTimeWebsiteAutomation
         MarketViewMLSforMLSsorassociations,
         MarketViewBroker,
         LeadCoordinatorandLeadAlert,
-        Other
+        Other,
+        Empty
 
     }
 
