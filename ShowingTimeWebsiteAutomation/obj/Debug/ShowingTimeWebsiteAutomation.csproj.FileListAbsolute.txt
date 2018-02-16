@@ -1,0 +1,16 @@
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\ShowingTimeWebsiteAutomation.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\ShowingTimeWebsiteAutomation.pdb
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\nunit.framework.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\WebDriver.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\nunit.framework.xml
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\bin\Debug\WebDriver.xml
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\obj\Debug\ShowingTimeWebsiteAutomation.csproj.CoreCompileInputs.cache
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\obj\Debug\ShowingTimeWebsiteAutomation.dll
+C:\Users\siddh\source\repos\ShowingTimeWebsiteAutomation\ShowingTimeWebsiteAutomation\obj\Debug\ShowingTimeWebsiteAutomation.pdb
