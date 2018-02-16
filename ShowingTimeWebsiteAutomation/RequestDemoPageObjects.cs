@@ -1,12 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace ShowingTimeWebsiteAutomation
 {
@@ -121,7 +116,7 @@ namespace ShowingTimeWebsiteAutomation
 
             Thread.Sleep(1000);
 
-            RequestDemoFirstName.SendKeys(lastname);
+            RequestDemoLastName.SendKeys(lastname);
 
             Thread.Sleep(1000);
 

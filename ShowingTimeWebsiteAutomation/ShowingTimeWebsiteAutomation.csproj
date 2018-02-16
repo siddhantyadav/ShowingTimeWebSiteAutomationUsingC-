@@ -67,7 +67,6 @@
     <Compile Include="HomePageObjects.cs" />
     <Compile Include="ShowingTime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowingTimeMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
